@@ -25,5 +25,6 @@ stages:
       inputs:
         command: build
         dockerfile: '**/Dockerfile'
+        containerRegistry: cortezmkContainerRegistry
         tags: |
           $(tag)
